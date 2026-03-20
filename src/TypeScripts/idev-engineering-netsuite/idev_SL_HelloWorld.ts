@@ -27,7 +27,7 @@ import * as serverWidget from 'N/ui/serverWidget';
 export const onRequest: EntryPoints.Suitelet.onRequest = (
   context: EntryPoints.Suitelet.onRequestContext,
 ): void => {
-  const form = serverWidget.createForm({ title: 'Hello World' });
+  const form = serverWidget.createForm({ title: 'Hello World SCG' });
 
   form.addField({
     id: 'custpage_message',
